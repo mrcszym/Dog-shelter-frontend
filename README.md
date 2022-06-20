@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Dog-shelter BACKEND - frontend here -> https://github.com/mrcszym/Dog-shelter-frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Animal shelter page using React, Spring and MySQL database.
+App uses authorizartion token in Spring Security.
 
-## Available Scripts
+To browse welcome page no authorization is needed.
+There are 2 roles user can possibly login: ROLE_USER and ROLE_ADMIN.
+Logged in user may add new application form, then send it to database, display all of forms posted before (with their actual status) and delete them.
+Logged in admin may display all of forms and manage them; delete and change their status (accept / decline).
 
-In the project directory, you can run:
+Welcome page:
+![image](https://user-images.githubusercontent.com/81679054/174585340-4fa032cb-43c1-4221-a766-c591fda6bc88.png)
+![image](https://user-images.githubusercontent.com/81679054/174585374-58b64f5a-6aab-4b91-811e-84ca04da6d61.png)
+![image](https://user-images.githubusercontent.com/81679054/174585437-3c6e61b3-809e-4d8f-a406-2f49a5db2ae6.png)
 
-### `npm start`
+Login page:
+![image](https://user-images.githubusercontent.com/81679054/174585812-cc033954-ce6d-4625-ad24-f0f7e0e33292.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+UserPage:
+![image](https://user-images.githubusercontent.com/81679054/174585508-d39b6663-97e4-474c-bb1b-30d71b812d1a.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Application form:
+![image](https://user-images.githubusercontent.com/81679054/174585616-af461763-fb90-4ed4-9b87-3a0179a16457.png)
 
-### `npm test`
+Users application forms:
+![image](https://user-images.githubusercontent.com/81679054/174585692-8238a177-0aed-444a-bf80-f7016e6b3171.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Delete modal:
+![image](https://user-images.githubusercontent.com/81679054/174585757-1ae4211d-493a-420d-9a4d-7f444f1b9d41.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Admin application management page:
+![image](https://user-images.githubusercontent.com/81679054/174585895-810a910f-cdf3-45fc-8c9d-bda1ef2d6b44.png)
